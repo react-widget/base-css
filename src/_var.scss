@@ -1,0 +1,26 @@
+// Base
+$body-background: #fff;
+$component-background: #fff;
+$font-family: "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", Arial,
+    sans-serif;
+$code-family: Consolas, Menlo, Courier, monospace;
+$title-color: #17233d;
+$text-color: #515a6e;
+$font-size-base: 14px;
+$font-size-small: 12px;
+$font-size-large: 16px;
+$line-height-base: 1.5;
+$line-height-computed: floor(($font-size-base * $line-height-base));
+$border-radius-base: 6px;
+$border-radius-small: 4px;
+$cursor-disabled: not-allowed;
+
+// Animation
+$animation-time: 0.3s;
+$transition-time: 0.2s;
+$ease-in-out: ease-in-out;
+
+// Color
+$link-color: #2d8cf0;
+$link-hover-color: tint($link-color, 20%);
+$link-active-color: shade($link-color, 5%);

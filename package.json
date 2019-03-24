@@ -1,0 +1,36 @@
+{
+    "name": "base-css",
+    "version": "0.1.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "start": "node build/index",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/react-widget/base-css.git"
+    },
+    "keywords": [
+        "react-widget",
+        "base-css"
+    ],
+    "files": [
+        "*.js",
+        "lib",
+        "*.md"
+    ],
+    "author": "nobo.zhou@foxmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/react-widget/base-css/issues"
+    },
+    "homepage": "https://github.com/react-widget/base-css#readme",
+    "devDependencies": {
+        "autoprefixer": "^9.5.0",
+        "node-sass": "^4.11.0",
+        "postcss": "^7.0.14",
+        "postcss-flexbugs-fixes": "^4.1.0",
+        "transform-es": "^2.2.10"
+    }
+}
